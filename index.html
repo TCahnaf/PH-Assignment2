@@ -9,7 +9,7 @@
   </head>
   <body>
     <header
-      class="flex -mx-18 justify-around mx-justify-around lg:gap-[720px] items-center lg:mx-60 mt-15"
+      class="flex justify-around mx-justify-around lg:gap-[720px] items-center lg:mx-60 mt-15"
     >
       <!-- Navigation-Bar -->
       <div>
@@ -89,11 +89,11 @@
           <img src="assets/sample-flower-image.png" alt="" />
           <h4 class="text-2xl text-center">Lily Blossom</h4>
           <h4 class="text-2xl font-bold text-center">20 USD</h4>
-          <buttontext-center
+          <button
             class="bg-[#E95A08] text-center text-lg text-white px-[80px] py-19[px]"
           >
             ADD TO CART
-          </buttontext-center>
+          </button>
         </div>
         <div class="">
           <img src="assets/sample-flower-image.png" alt="" />
@@ -214,23 +214,65 @@
     <section class = "mt-30">
       <div class="bg-[url('/assets/news-letter-bg.png')] bg-no-repeat bg-cover h-[533px] w-full flex flex-col justify-center items-center" >
 
-        <h1 class="text-5xl text-white font-bold mb-7">Join the colorful Bunch</h1>
+        <h1 class=" text-lg lg:text-5xl text-white font-bold mb-7">Join the colorful Bunch</h1>
 
         <div class = "flex items-center justify-center">
 
-        <input type="text" placeholder="write email" class = "bg-white h-[50px] w-[644px] pl-4" >
+        <input type="text" placeholder="write email" class = "bg-white h-[50px] w-[218px] lg:h-[50px] lg:w-[644px] pl-4" >
         <button
-            class="bg-[#E95A08] text-center text-lg text-white px-[53px] py-19[px] w-[186px] h-[50px]"
+            class="bg-[#E95A08] text-center text-lg text-white px-[12px] lg:px-[53px] py-19[px] w-[103px] h-[50px] lg:w-[186px] lg:h-[50px]"
           >
             Subscribe
           </button>
           </div>
+      </div>
+    </section>
+    <footer class = "mt-15">
+      <div class="flex flex-col gap-6 lg:grid lg:grid-cols-4 lg:gap-2">
+
+        <div class=""
+        > <img src="assets/logo.png" alt="logo">
+        <p class="text-xl text-[rgba(0,0,0,0.5)] mt-5">
+        Indulge your senses with the <br class = "hidden lg:inline"> beauty and <br class = "hidden sm:inline"> fragrance of our fresh <br class = "hidden lg:inline">  flower
+        shop. 
+      </p>
+      </div>
+        <div class="">
+          <ul class =  "space-y-4 text-[rgba(0,0,0,0.5)]">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Blog</li>
+            <li>FAQ</li>
+            <li>Contact Us</li>
+          </ul>
+          </div>
+          <div class="">
+          <ul class = "space-y-4 text-[rgba(0,0,0,0.5)]" >
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>Privacy Policy</li>
+            <li>Terms of Service</li>
+            <li>Help Center</li>
+          </ul>
+        </div>
+        <div class="flex gap-4 mb-12">
+          <img src="assets/icon-linkedin.png"  alt=""class ="w-9 h-9
+          "><img src="assets/icon-twitter.png" alt=""class ="w-9 h-9
+          "><img src="assets/icon-facebook.png" alt=""class ="w-9 h-9
+          "><img src="assets/icon-youtube.png" alt=""class ="w-9 h-9
+          ">
+        </div>
+
+
+
 
 
       </div>
 
 
-    </section>
+
+
+    </footer>
   </body>
 </html>
 
