@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flower Market</title>
+    <link rel="stylesheet" href="styles/flowers.css">
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
     <header
-      class="flex justify-around mx-justify-around lg:gap-[720px] items-center lg:mx-60 mt-15"
+      class="flex justify-around mx-justify-around lg:gap-[720px] items-center lg:mx-60 mt-10"
     >
-      <!-- Navigation-Bar -->
       <div>
         <img
           src="assets/logo.png"
@@ -23,8 +23,8 @@
         <nav class="hidden sm:block">
           <ul class="flex gap-12">
             <li class="text-base font-bold">Home</li>
-            <li class="text-base">Shop</li>
-            <li class="text-base whitespace-nowrap">About us</li>
+            <li class="text-base text-[#8987A1]">Shop</li>
+            <li class="text-base whitespace-nowrap text-[#8987A1]">About us</li>
           </ul>
         </nav>
         <div class="flex gap-2">
@@ -36,10 +36,10 @@
 
     <!-- Banner -->
     <section
-      class="flex flex-col-reverse justify-center mt-56 lg:mx-60 lg:flex-row"
+      class="flex flex-col-reverse justify-center mt-70 lg:mx-60 lg:flex-row gap-6"
     >
       <div>
-        <h1 class="text-6xl font-bold">
+        <h1 class="text-6xl font-bold mb-6">
           ALWAYS
           <span class="text-[#E95A08]"
             >FRESH<br />
@@ -61,7 +61,7 @@
       </div>
     </section>
     <!-- Our Plants section -->
-    <section class="mt-56">
+    <section class="mt-30">
       <h1 class="text-6xl font-bold text-[#E95A08] text-center mb-6">
         Our <span class="text-black">Plants</span>
       </h1>
@@ -71,89 +71,90 @@
         classic roses to exotic blooms, we offer a wide variety of fresh.
       </p>
 
-      <div
-        class="grid grid-cols-2 lg:grid-cols-4 items-center justify-items-center"
-      >
-        <div class="">
-          <img src="assets/sample-flower-image.png" alt="" />
-          <h4 class="text-2xl text-center">Lily Blossom</h4>
-          <h4 class="text-2xl font-bold text-center">20 USD</h4>
-          <button
-            class="bg-[#E95A08] text-center text-lg text-white px-[80px] py-19[px]"
-          >
-            ADD TO CART
-          </button>
-        </div>
-
-        <div class="">
-          <img src="assets/sample-flower-image.png" alt="" />
-          <h4 class="text-2xl text-center">Lily Blossom</h4>
-          <h4 class="text-2xl font-bold text-center">20 USD</h4>
-          <button
-            class="bg-[#E95A08] text-center text-lg text-white px-[80px] py-19[px]"
-          >
-            ADD TO CART
-          </button>
-        </div>
-        <div class="">
-          <img src="assets/sample-flower-image.png" alt="" />
-          <h4 class="text-2xl text-center">Lily Blossom</h4>
-          <h4 class="text-2xl font-bold text-center">20 USD</h4>
-          <button
-            class="bg-[#E95A08] text-center text-lg text-white px-[80px] py-19[px]"
-          >
-            ADD TO CART
-          </button>
-        </div>
-        <div class="">
-          <img src="assets/sample-flower-image.png" alt="" />
-          <h4 class="text-2xl text-center">Lily Blossom</h4>
-          <h4 class="text-2xl font-bold text-center">20 USD</h4>
-          <button
-            class="bg-[#E95A08] text-center text-lg text-white px-[80px] py-19[px]"
-          >
-            ADD TO CART
-          </button>
-        </div>
-        <div class="">
-          <img src="assets/sample-flower-image.png" alt="" />
-          <h4 class="text-2xl text-center">Lily Blossom</h4>
-          <h4 class="text-2xl font-bold text-center">20 USD</h4>
-          <button
-            class="bg-[#E95A08] text-center text-lg text-white px-[80px] py-19[px]"
-          >
-            ADD TO CART
-          </button>
-        </div>
-        <div class="">
-          <img src="assets/sample-flower-image.png" alt="" />
-          <h4 class="text-2xl text-center">Lily Blossom</h4>
-          <h4 class="text-2xl font-bold text-center">20 USD</h4>
-          <button
-            class="bg-[#E95A08] text-center text-lg text-white px-[80px] py-19[px]"
-          >
-            ADD TO CART
-          </button>
-        </div>
-        <div class="">
-          <img src="assets/sample-flower-image.png" alt="" />
-          <h4 class="text-2xl text-center">Lily Blossom</h4>
-          <h4 class="text-2xl font-bold text-center">20 USD</h4>
-          <button
-            class="bg-[#E95A08] text-center text-lg text-white px-[80px] py-19[px]"
-          >
-            ADD TO CART
-          </button>
-        </div>
-        <div class="">
-          <img src="assets/sample-flower-image.png" alt="" />
-          <h4 class="text-2xl text-center">Lily Blossom</h4>
-          <h4 class="text-2xl font-bold text-center">20 USD</h4>
-          <button
-            class="bg-[#E95A08] text-center text-lg text-white px-[80px] py-19[px]"
-          >
-            ADD TO CART
-          </button>
+      <div class = "max-w-[1320px] mx-auto px-4">
+        <div
+          class="grid grid-cols-2 lg:grid-cols-4 gap-y-8 gap-x-6 items-center justify-items-center"
+        >
+          <div class="">
+            <img src="assets/sample-flower-image.png" alt="" />
+            <h4 class="text-2xl text-center">Lily Blossom</h4>
+            <h4 class="text-2xl font-bold text-center">20 USD</h4>
+            <button
+              class="bg-[#E95A08] text-center text-lg text-white w-full py-[19px]"
+            >
+              ADD TO CART
+            </button>
+          </div>
+          <div class="">
+            <img src="assets/sample-flower-image.png" alt="" />
+            <h4 class="text-2xl text-center">Lily Blossom</h4>
+            <h4 class="text-2xl font-bold text-center">20 USD</h4>
+            <button
+              class="bg-[#E95A08] text-center text-lg text-white w-full py-[19px]"
+            >
+              ADD TO CART
+            </button>
+          </div>
+          <div class="">
+            <img src="assets/sample-flower-image.png" alt="" />
+            <h4 class="text-2xl text-center">Lily Blossom</h4>
+            <h4 class="text-2xl font-bold text-center">20 USD</h4>
+            <button
+              class="bg-[#E95A08] text-center text-lg text-white w-full py-[19px]"
+            >
+              ADD TO CART
+            </button>
+          </div>
+          <div class="">
+            <img src="assets/sample-flower-image.png" alt="" />
+            <h4 class="text-2xl text-center">Lily Blossom</h4>
+            <h4 class="text-2xl font-bold text-center">20 USD</h4>
+            <button
+              class="bg-[#E95A08] text-center text-lg text-white w-full py-[19px]"
+            >
+              ADD TO CART
+            </button>
+          </div>
+          <div class="">
+            <img src="assets/sample-flower-image.png" alt="" />
+            <h4 class="text-2xl text-center">Lily Blossom</h4>
+            <h4 class="text-2xl font-bold text-center">20 USD</h4>
+            <button
+              class="bg-[#E95A08] text-center text-lg text-white w-full py-[19px]"
+            >
+              ADD TO CART
+            </button>
+          </div>
+          <div class="">
+            <img src="assets/sample-flower-image.png" alt="" />
+            <h4 class="text-2xl text-center">Lily Blossom</h4>
+            <h4 class="text-2xl font-bold text-center">20 USD</h4>
+            <button
+              class="bg-[#E95A08] text-center text-lg text-white w-full py-[19px]"
+            >
+              ADD TO CART
+            </button>
+          </div>
+          <div class="">
+            <img src="assets/sample-flower-image.png" alt="" />
+            <h4 class="text-2xl text-center">Lily Blossom</h4>
+            <h4 class="text-2xl font-bold text-center">20 USD</h4>
+            <button
+              class="bg-[#E95A08] text-center text-lg text-white w-full py-[19px]"
+            >
+              ADD TO CART
+            </button>
+          </div>
+          <div class="">
+            <img src="assets/sample-flower-image.png" alt="" />
+            <h4 class="text-2xl text-center">Lily Blossom</h4>
+            <h4 class="text-2xl font-bold text-center">20 USD</h4>
+            <button
+              class="bg-[#E95A08] text-center text-lg text-white w-full py-[19px]"
+            >
+              ADD TO CART
+            </button>
+          </div>
         </div>
       </div>
     </section>
@@ -182,8 +183,7 @@
      </section>
 
     <!-- Latest Deals -->
-    <section class="mt-56 
-">
+    <section class="mt-40 ">
       <h1 class="text-6xl font-bold text-[#E95A08] text-center mb-6">
         Latest <span class="text-black">Deals</span>
       </h1>
@@ -195,9 +195,12 @@
       <div class="flex flex-col gap-4 items-center lg:grid lg:grid-cols-2 lg:items-center lg:justify-center lg:gap-x-0 lg:place-items-center lg:mx-auto max-w-[1200px]
       " >
         <div
-          class="bg-[url('/assets/deal-bloom.png')] bg-no-repeat bg-cover h-[206px] w-[366.22px] border rounded-xl lg:order-1"
+          class=" relative bg-[url('/assets/deal-bloom.png')] bg-no-repeat bg-cover h-[206px] w-[366.22px] border rounded-xl lg:order-1"
         >
-          <div class="py-[70px]">
+        <div class="absolute inset-0 rounded-xl bg-gradient-to-t from-black/40 to-transparent"></div>
+
+
+          <div class=" relative py-[70px]">
             <h3 class="font-bold text-white text-xl text-center">
               60% Off | Bloom Plant
             </h3>
@@ -206,10 +209,13 @@
             </h4>
           </div>
         </div>
+
         <div
-          class="bg-[url('/assets/deal-ana.png')] bg-no-repeat bg-cover h-[206px] w-[366.22px] border rounded-xl lg:order-2"
+          class=" relative bg-[url('/assets/deal-ana.png')] bg-no-repeat bg-cover h-[206px] w-[366.22px] border rounded-xl lg:order-2"
         >
-          <div class="py-[70px]">
+        <div class="absolute inset-0 rounded-xl bg-gradient-to-t from-black/40 to-transparent"></div>
+
+          <div class=" relative py-[70px]">
             <h3 class="font-bold text-white text-xl text-center">
               30% Off | Ana Plant
             </h3>
@@ -220,9 +226,10 @@
         </div>
 
         <div
-          class="bg-[url('/assets/deal-zabo.png')] bg-no-repeat bg-cover h-[206px] w-[366.22px] border rounded-xl lg:col-start-2 row-start-1 row-span-2 lg:w-[753px] lg:h-[423px]"
+          class="relative bg-[url('/assets/deal-zabo.png')] bg-no-repeat bg-cover h-[206px] w-[366.22px] border rounded-xl lg:col-start-2 row-start-1 row-span-2 lg:w-[753px] lg:h-[423px]"
         >
-          <div class="py-[70px] lg:py-[200px]">
+          <div class="absolute inset-0 rounded-xl bg-gradient-to-t from-black/40 to-transparent"></div>
+          <div class=" relative py-[70px] lg:py-[200px]">
           <h3 class="font-bold text-white text-xl text-center lg:text-5xl">
             25% Off | Zabo Plant
           </h3>
@@ -243,58 +250,51 @@
 
         <input type="text" placeholder="write email" class = "bg-white h-[50px] w-[218px] lg:h-[50px] lg:w-[644px] pl-4" >
         <button
-            class="bg-[#E95A08] text-center text-lg text-white px-[12px] lg:px-[53px] py-19[px] w-[103px] h-[50px] lg:w-[186px] lg:h-[50px]"
+            class="bg-[#E95A08] text-center text-lg text-white px-[12px] py-[10px] lg:px-[53px] w-[103px] h-[50px] lg:w-[186px] lg:h-[50px]"
           >
             Subscribe
           </button>
           </div>
       </div>
     </section>
-    <footer class = "mt-15">
-      <div class="flex flex-col gap-6 lg:grid lg:grid-cols-4 lg:gap-2  lg:place-items-center ">
-
-        <div class=""
-        > <img src="assets/logo.png" alt="logo">
-        <p class="text-xl text-[rgba(0,0,0,0.5)] mt-5 w-[359px]">
-        Indulge your senses with the <br class = "hidden lg:inline"> beauty and <br class = "hidden sm:inline"> fragrance of our fresh <br class = "hidden lg:inline">  flower
-        shop. 
-      </p>
-      </div>
-        <div class="">
-          <ul class =  "space-y-4 text-[rgba(0,0,0,0.5)]">
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Blog</li>
-            <li>FAQ</li>
-            <li>Contact Us</li>
-          </ul>
-          </div>
+    <footer class = "mt-15 mb-15">
+      <div class = " max-w-[1520px] mx-auto px-4  ">
+        <div class="flex flex-col gap-6 lg:grid lg:grid-cols-4 lg:gap-2  lg:justify-center ">
+          <div class=""
+          > <img src="assets/logo.png" alt="logo">
+          <p class="text-xl text-[rgba(0,0,0,0.5)] mt-5 w-[300px] h-[81px]">
+          Indulge your senses with the<br> beauty and fragrance of our fresh
+          shop.
+          </p>
+        
+        </div>
           <div class="">
-          <ul class = "space-y-4 text-[rgba(0,0,0,0.5)]" >
-            <li>Features</li>
-            <li>Pricing</li>
-            <li>Privacy Policy</li>
-            <li>Terms of Service</li>
-            <li>Help Center</li>
-          </ul>
+            <ul class =  "space-y-4 text-[rgba(0,0,0,0.5)]">
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Blog</li>
+              <li>FAQ</li>
+              <li>Contact Us</li>
+            </ul>
+            </div>
+            <div class="">
+            <ul class = "space-y-4 text-[rgba(0,0,0,0.5)]" >
+              <li>Features</li>
+              <li>Pricing</li>
+              <li>Privacy Policy</li>
+              <li>Terms of Service</li>
+              <li>Help Center</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 ">
+            <img src="assets/icon-linkedin.png"  alt=""class ="w-9 h-9
+            "><img src="assets/icon-twitter.png" alt=""class ="w-9 h-9
+            "><img src="assets/icon-facebook.png" alt=""class ="w-9 h-9
+            "><img src="assets/icon-youtube.png" alt=""class ="w-9 h-9
+            ">
+          </div>
         </div>
-        <div class="flex gap-4 mb-12">
-          <img src="assets/icon-linkedin.png"  alt=""class ="w-9 h-9
-          "><img src="assets/icon-twitter.png" alt=""class ="w-9 h-9
-          "><img src="assets/icon-facebook.png" alt=""class ="w-9 h-9
-          "><img src="assets/icon-youtube.png" alt=""class ="w-9 h-9
-          ">
-        </div>
-
-
-
-
-
       </div>
-
-
-
-
     </footer>
   </body>
 </html>
